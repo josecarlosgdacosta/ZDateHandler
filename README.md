@@ -1,6 +1,6 @@
 # ZDateHandler #
 
-The trait ZFormHandler makes basic operations with dates, such as:
+The ZFormHandler class makes basic operations with dates, such as:
 - get the current date;
 - get the current time;
 - get the difference between two dates.
