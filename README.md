@@ -1,15 +1,12 @@
-<b>ZDateHandler</b>
+# ZDateHandler
 
-The trait ZFormHandler makes basic operations with dates, such as get the current date, get the current time or get
-the difference between two dates.
-The following is an example of its use:
+The trait ZFormHandler makes basic operations with dates, such as:
+- get the current date;
+- get the current time;
+- get the difference between two dates.
 
-<?php
+_The following is an example of its use:_
 
-    require_once 'ZDateHandler.php';
-
-    use ZDateHandler;
-
-    echo $this->getCurrentDate(true);
-
-?>
+require 'ZDateHandler.php';
+$zDateHandler = new ZDateHandler();
+echo $zDateHandler->getDateInterval("15/11/1987", "10/11/2014", "days");

@@ -7,7 +7,7 @@
  * @since 29/07/2014
  * @version 0.1
  */
-trait ZDateHandler {
+class ZDateHandler {
 
     /**
      * Método que retorna o nome do mês por extenso.
@@ -58,7 +58,7 @@ trait ZDateHandler {
 
             if ($extensive) {
 
-                $monthName = $this->getMonthName($dateTime->format(("m")));
+                $monthName = $this->_getMonthName($dateTime->format(("m")));
 
                 return $dateTime->format("d") . " de " . $monthName . " de " . $dateTime->format("Y");
 
