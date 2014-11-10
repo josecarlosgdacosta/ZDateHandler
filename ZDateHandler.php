@@ -3,8 +3,8 @@
 /**
  * Trait responsável por controlar as operações com data e hora.
  * @author José Carlos (josecarlosgdacosta@gmail.com)
- * @package application\utils
- * @since 29/07/2014
+ * @package ZDateHandler
+ * @since 10/11/2014
  * @version 0.1
  */
 class ZDateHandler {
